@@ -16,12 +16,17 @@ function register_theme_menus(){
 add_action( 'init', 'register_theme_menus' );
 
 
-//STYLES
+//DEV STYLES
 function fywave_theme_styles(){
     wp_enqueue_style( 'animations_css', get_template_directory_uri() . '/css/animations/animations.css' );
-    wp_enqueue_style( 'style_css', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'style_css', get_template_directory_uri() . '/css/style.css' );
     wp_enqueue_style( 'mobile_css', get_template_directory_uri() . '/css/mobile.css' );
 }
+
+//LIVE STYLES
+//function fywave_theme_styles(){
+//    wp_enqueue_style( 'animations_css', get_template_directory_uri() . '/final.min.css' );
+//}
 
 add_action( 'wp_enqueue_scripts', 'fywave_theme_styles' );
 

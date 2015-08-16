@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+Theme Name: Breadkit Skeleton
+Theme URI: http://beverlyhillsdigitalmarketing.com http://fywave.com
+Author: Rafay Choudhury
+Author URI: http://beverlyhillsdigitalmarketing.com http://fywave.com
+Description: A theme skeleton hooked in with all of the appropriate calls for angular, jquery, mobile, nav, animation, and bare bones structure to streamline theme development.
+Version: 1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: Fywave Breadkit Skeleton Theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* Bitters 0.10.0
+ * http://bitters.bourbon.io
+ * Copyright 2013–2014 thoughtbot, inc.
+ * MIT License */
+
+@import '/sass/bourbon/bourbon';
+@import '/sass/partials/mixins';
+@import '/sass/partials/variables';
+
+body
+{
+    background: $shakespeare-blue;
+}

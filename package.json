@@ -1,14 +1,16 @@
 {
-  "name": "rafay",
+  "name": "wordpress-breadkit",
   "version": "1.0.0",
-  "description": "Essential Configurations, Initiations, and Objects for insanely awesome UI / UX",
-  "main": "index.js",
+  "description": "basic wordpress function initations for the frontend, responsive objects for GSAP, Scroll Magic, and jQuery.",
+  "main": "gulpfile.js",
   "dependencies": {
     "angular": "^1.4.4",
-    "bootstrap": "^3.3.5",
+    "angular-route": "^1.4.4",
     "cheerio": "^0.19.0",
+    "bootstrap": "^3.3.5",
     "del": "^1.2.1",
     "gsap": "^1.17.0",
+    "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-cache": "^0.2.10",
     "gulp-concat": "^2.6.0",
@@ -22,19 +24,26 @@
     "gulp-uglify": "^1.2.0",
     "nodejs": "^0.0.0",
     "optipng": "^0.1.1",
-    "request": "^2.55.0",
+    "request": "^2.61.0",
     "scrollmagic": "^2.0.5"
   },
-  "devDependencies": {
-    "angular-route": "^1.4.4"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com//rafay826/wordpress-breadkit-theme.git"
-  }
+  },
+  "keywords": [
+    "gsap",
+    "scroll",
+    "magic",
+    "npm",
+    "wordpress",
+    "breadkit",
+    "theme"
+  ],
+  "author": "rafay choudhury",
+  "license": "ISC"
 }

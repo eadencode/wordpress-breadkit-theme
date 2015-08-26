@@ -19,9 +19,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * Copyright 2013–2014 thoughtbot, inc.
  * MIT License */
 
-@import '/sass/bourbon/bourbon';
-@import '/sass/partials/mixins';
-@import '/sass/partials/variables';
+@import 'css/sass/partials/mixins';
+@import 'css/sass/partials/variables';
+@import 'css/sass/bourbon/bourbon';
 
 body
 {

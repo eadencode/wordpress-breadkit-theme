@@ -1,9 +1,9 @@
 var gulp = require('gulp'),
     sass = require('gulp-ruby-sass'),
-    clean = require('gulp-clean'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
     concatcss = require('gulp-concat-css'),
+    clean = require('gulp-clean-dest'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
@@ -21,6 +21,12 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('css'))
     .pipe(minifycss())
     .pipe(gulp.dest('css'))
+});
+
+gulp.task('clean', function () {
+    return gulp.src('style.scss', {read: false})
+        .pipe(clean('style.scss'))
+        .pipe(gulp.dest('./'));
 });
 
 gulp.task('css', function(){
